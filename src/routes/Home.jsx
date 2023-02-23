@@ -20,8 +20,14 @@ function Home() {
             calculations such as addition, subtraction, multiplication, and
             division
             <br />
-            • Get Fsat results and promptly
             <br />
+            • Get Fast results and promptly
+            <br />
+            <br />
+            • Display screen to see all Calculations
+            <br />
+            <br />
+            • Nice Calculator UI
           </p>
         </div>
       </div>

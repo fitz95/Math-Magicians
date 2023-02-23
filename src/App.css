@@ -1,12 +1,15 @@
 html {
-  font-size: 62.5%;
+  font-size: 90.5%;
   box-sizing: border-box;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 *,
 *::before,
 *::after {
-  margin: 0;
+  margin-right: 0;
+  margin-left: 0;
   padding: 0;
   box-sizing: inherit;
 }
@@ -49,4 +52,19 @@ html {
   to {
     transform: rotate(360deg);
   }
+}
+
+.mainhome {
+  font-size: 22px;
+}
+
+.caldiv {
+  display: flex;
+  justify-content: center;
+  column-gap: 20%;
+  align-items: flex-start;
+}
+
+.quotediv {
+  margin-top: 30vh;
 }

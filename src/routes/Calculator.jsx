@@ -6,7 +6,7 @@ function Calculator() {
     <>
       <Navbar />
       <div className="caldiv">
-        <h1>Lets do Some Maths</h1>
+        <h1>Let&apos;s do Some Math!</h1>
         <CalculatorUi />
       </div>
     </>
