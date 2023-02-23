@@ -5,7 +5,7 @@ function Quote() {
     <>
       <Navbar />
       <div className="quotediv">
-        <h1>
+        <h1 alt="quote">
           Mathematics is not about numbers, equations, computations, or
           algorithms: It is about understanding
           <br />
