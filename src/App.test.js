@@ -4,9 +4,8 @@ import { act } from 'react-dom/test-utils';
 import renderer from 'react-test-renderer';
 // import Link from '../Link';
 import App from './App';
-import Home from './routes/Home';
 
-// Using React Testing Library 
+// Using React Testing Library
 describe('Checking for the different pages information', () => {
   it('renders App component', () => {
     render(
