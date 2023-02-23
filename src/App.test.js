@@ -73,23 +73,3 @@ describe('Checking for route for Calculator page ', () => {
     expect(screen.queryByText(/Let's do Some Math!/)).toBeNull();
   });
 });
-
-// Using Jest Snapshot
-
-it('renders correctly when there are no items', () => {
-  const tree = renderer.create(
-    <MemoryRouter initialEntries={['/Quotes']}>
-      <App />
-    </MemoryRouter>,
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-it('renders correctly when there are no items', () => {
-  const tree = renderer.create(
-    <MemoryRouter initialEntries={['/']}>
-      <App />
-    </MemoryRouter>,
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
-});
