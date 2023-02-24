@@ -108,7 +108,7 @@ To run tests use Linters
 
 You can deploy this project using Heroku, Netlify or any free hosting platform
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<h4>(<a href="#readme-top">back to top</a>)</h4>
 
 ## 👥 Authors <a name="authors"></a>
 
