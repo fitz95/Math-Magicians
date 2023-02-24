@@ -15,7 +15,7 @@ function Navbar() {
             <GiHamburgerMenu className="nav__toggle" aria-expanded="false" />
             <ul className="nav__wrapper">
               <li className="nav__item">
-                <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
+                <Link to="/" style={{ textDecoration: 'none' }} id="homepage">Home</Link>
               </li>
 
               <li className="nav__item">
